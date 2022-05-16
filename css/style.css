@@ -441,6 +441,15 @@ body._lock {
   -moz-filter: brightness(50%);
 }
 
+.intro__image img {
+  max-width: 100%;
+  min-height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 .intro__info {
   position: relative;
   z-index: 5;
