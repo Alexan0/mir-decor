@@ -2083,7 +2083,7 @@ body._lock {
     z-index: 100;
     background-color: #000;
     opacity: 1;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
     overflow: auto;
   }
 
