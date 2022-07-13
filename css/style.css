@@ -96,6 +96,10 @@ body {
   height: 100%;
 }
 
+body.lock {
+  overflow: hidden;
+}
+
 body._lock {
   overflow: hidden;
 }
@@ -2366,6 +2370,12 @@ body._lock {
 }
 
 @media (max-width: 479.98px) {
+  .wrapper.lock {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+
   .header__phone-w {
     font-size: 16px;
   }
